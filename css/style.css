@@ -1,0 +1,262 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  li, a, p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: ivory;
+  }
+
+  h1 {
+    color: crimson;
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+/* NAVBAR STYLES */
+
+.logo-img {
+  height: auto;
+  width: 8%;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 30px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* HEADER STYLES */
+
+.hero-text-box {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/fancy-party.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+  color: crimson;
+  font-family: 'Freckle Face', cursive;
+  font-size: 3rem;
+  text-shadow: 2px 2px ivory;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  background-color: antiquewhite;
+  padding: 2%;
+}
+
+.about-section h1 {
+  text-shadow: 2px 2px #333;
+}
+
+.about-blurb {
+  text-align: center;
+  margin: 2%;
+}
+
+.about-blurb a:link, .about-blurb a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.about-blurb a:hover, .about-blurb a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.video {
+  text-align: center;
+  padding: 2%;
+}
+
+/* MENU SECTION */
+
+#menu {
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/chopsticks-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2%;
+}
+
+.menu-blurb {
+  color: ivory;
+  text-align: center;
+  margin: 2%;
+}
+
+.menu-section h1{
+  text-shadow: 2px 2px ivory;
+}
+
+.menu-blurb a:link, .menu-blurb a:visited {
+  color: ivory;
+  text-decoration: underline;
+}
+
+.menu-blurb a:hover, .menu-blurb a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.gallery-grid {
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
+.gallery-grid img {
+	height: auto;
+	width: 25%;
+	padding: 10px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  padding: 25px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(128, 2, 27);
+}
+
+.contact-section h1 {
+  color: rgb(29, 29, 29);
+  text-shadow: 2px 2px ivory;
+  margin: 2%
+}
+
+.contact-section a:link, .contact-section a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.contact-section a:hover, .contact-section a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin: 2%;
+  width: 70%;
+  border-radius: 5px;
+  background-color: #ecdddd;
+  padding: 20px;
+}
+
+label {
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(247, 104, 104);
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f59279;
+}
+
+.contact-faq {
+  width: 100%;
+  padding: 2%;
+  background-color: antiquewhite;
+  text-align: center;
+} 
+
+/* FOOTER */
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1.5%;
+	margin: auto;
+}
+
+footer a:link, footer a:visited {
+  color: ivory;
+  text-decoration: underline;
+}
+
+footer a:hover, footer a:active {
+  color: red;
+  text-decoration: underline;
+}
+
