@@ -27,17 +27,16 @@
 
   h1 {
     color: crimson;
-    font-family: 'Freckle Face', cursive;
+    font-family: 'Rock Salt', cursive;
     font-size: 3rem;
     text-align: center;
   }
-
 
 /* NAVBAR STYLES */
 
 .logo-img {
   height: auto;
-  width: 8%;
+  width: 20%;
 }
 
 nav {
@@ -84,7 +83,7 @@ li a:hover {
   background-size: cover;
   padding: 10%;
   color: crimson;
-  font-family: 'Freckle Face', cursive;
+  font-family: 'Rock Salt', cursive;
   font-size: 3rem;
   text-shadow: 2px 2px ivory;
 }
@@ -92,6 +91,9 @@ li a:hover {
 /* ABOUT SECTION */
 
 #about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: antiquewhite;
   padding: 2%;
 }
@@ -102,6 +104,7 @@ li a:hover {
 
 .about-blurb {
   text-align: center;
+  max-width: 50%;
   margin: 2%;
 }
 
@@ -113,6 +116,16 @@ li a:hover {
 .about-blurb a:hover, .about-blurb a:active {
   color: red;
   text-decoration: underline;
+}
+
+.button {
+	color: black;
+	text-decoration: none;
+	background-color: crimson;
+  border: solid black 2px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 25px;;
 }
 
 .video {
@@ -134,11 +147,15 @@ li a:hover {
     background-size: cover;
     background-attachment: fixed;
     padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu-blurb {
   color: ivory;
   text-align: center;
+  max-width: 50%;
   margin: 2%;
 }
 
@@ -165,7 +182,12 @@ li a:hover {
 .gallery-grid img {
 	height: auto;
 	width: 25%;
-	padding: 10px;
+  padding: 10px;
+  transition: all 1s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.1);
 }
 
 /* CONTACT SECTION */
@@ -239,6 +261,10 @@ input[type=submit]:hover {
   background-color: antiquewhite;
   text-align: center;
 } 
+
+.faq-p {
+  color: white;
+}
 
 /* FOOTER */
 
